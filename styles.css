@@ -25,7 +25,7 @@ html{
 .header__container{
     width: 100%;
     min-width: 288px;
-    height: 380px;
+    height: 400px;
     /* background-image: url('./assets/images/hero-image.jpg'); */
     background-image: linear-gradient(1deg,rgba(11, 29, 38, 1)5%, rgba(255, 255, 255, 0.2)50% ), url("./assets/images/hero-image.jpg");
     background-size: cover;
@@ -74,4 +74,67 @@ html{
 
 .main__section{
     background-color: var(--background);
+}
+
+.main__section{
+    width: 100%;
+    min-width: 288px;
+    height: auto;
+}
+
+.main__cruiser--container{
+    width: 100%;
+    min-width: 300px;
+}
+
+.main__cruiser--text{
+    text-align: justify;
+    padding: 10px;
+}
+
+.main__cruiser--number{
+    font-size: 12.0rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, .1);
+    line-height: 10rem;
+    display: inline-block;
+}
+
+.main__cruiser--title{
+    font-size: 3.2rem;
+    color: var(--white);    
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.main__cruiser--description{
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.main__cruiser--link{
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    
+}
+
+.main__cruiser--container span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('./assets/icons/right-arrow.png');
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.main__cruiser--image{
+    width: 100%;
+    height: 320px;
+    max-width: 566px;
 }
