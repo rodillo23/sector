@@ -29,7 +29,7 @@ body{
 .header__container{
     width: 100%;
     min-width: 288px;
-    height: 400px;
+    height: 90vh;
     /* background-image: url('./assets/images/hero-image.jpg'); */
     background-image: linear-gradient(1deg,rgba(11, 29, 38, 1)5%, rgba(255, 255, 255, 0.2)50% ), url("./assets/images/hero-image.jpg");
     background-size: cover;
@@ -45,6 +45,10 @@ body{
     height: 100%;
     margin: 0 auto;
     text-align: center;
+}
+
+.header__nav{
+    display: none;
 }
 
 .header__body .header__body--logo{
@@ -75,9 +79,6 @@ body{
 .header__body--title{
     margin: 30px 5px;
     font-size: 1.8rem;
-}
-
-.main__section{
 }
 
 .main__section{
